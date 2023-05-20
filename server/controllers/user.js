@@ -12,6 +12,6 @@ export const checkUsername = async (req, res) => {
       res.status(200).json({ success: true, data: userData });
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };

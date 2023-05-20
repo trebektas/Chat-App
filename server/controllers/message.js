@@ -18,7 +18,7 @@ export const getMessages = async (req, res) => {
 
     res.status(200).json({ success: true, data: messagesData });
   } catch (error) {
-    console.log(error);
+    console.error(error);
     res.status(500).json({
       success: false,
       msg: "Unable to get messages, try again later",
@@ -56,7 +56,7 @@ export const createMessage = async (req, res) => {
     const newMessage = await messagesTable.create(newMessageToCreate);
     res.status(201).json({ success: true, message: newMessage });
   } catch (error) {
-    console.log(error);
+    console.error(error);
     res.status(500).json({
       success: false,
       msg: "Unable to create a message, try again later",

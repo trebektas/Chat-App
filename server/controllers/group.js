@@ -12,7 +12,7 @@ export const createGroup = async (req, res) => {
       res.status(400).json({ success: false, msg: "Group already exists" });
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
     res.status(500).json({
       success: false,
       msg: "Unable to create a group, try again later",
@@ -32,6 +32,6 @@ export const getAllGroup = async (req, res) => {
         .json({ success: false, msg: "Unable to get groups, try again later" });
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };

@@ -22,7 +22,7 @@ const startServer = async () => {
       console.log(`Server started on port 3001`);
     });
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };
 
