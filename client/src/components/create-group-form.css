@@ -1,0 +1,50 @@
+.popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-body {
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  bottom: 35%;
+  top: 35%;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  border-color: black;
+  background: #dedede;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-body h1 {
+  margin: 15px 0 25px;
+  font-size: 1.7rem;
+}
+
+.popup-body input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  border: 2px solid #a7a7a7;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.popup-body button {
+  margin: 15px 0;
+  width: 100px;
+}

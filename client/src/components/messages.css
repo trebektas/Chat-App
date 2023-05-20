@@ -1,0 +1,49 @@
+.header-messages {
+  padding: 25px 20px;
+  border-bottom: #000000 1px solid;
+  text-align: center;
+}
+.container-message {
+  border: 2px solid #dedede;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: fit-content;
+  max-width: 70%;
+}
+
+.container-message h5 {
+  color: #4aa96c;
+}
+
+.container-message-list li {
+  list-style: none;
+  display: block;
+}
+
+section ul {
+  padding: 0 20px;
+  height: 69.6vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color: #fff7e9;
+}
+
+.user-message h5 {
+  color: #ff731d;
+}
+
+.text-message {
+  font-size: 1.2rem;
+}
+
+.text-create-date {
+  font-size: 0.8rem;
+  color: rgb(109, 109, 109);
+}

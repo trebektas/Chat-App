@@ -1,0 +1,26 @@
+.main-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  border-left: #000000 1px solid;
+}
+
+.home-icon {
+  font-size: 20rem;
+  display: flex;
+  color: #dedede;
+}
+
+.main-home {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-home h2 {
+  font-size: 7rem;
+  color: #dedede;
+}

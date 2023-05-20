@@ -1,0 +1,31 @@
+.container-sent-message {
+  padding: 10px 20px 20px;
+  background-color: #dedede;
+  display: flex;
+  border-top: 1px solid black;
+}
+
+.message-container {
+  color: rgb(199, 0, 0);
+  height: 20px;
+}
+
+.container-sent-message form {
+  width: 100%;
+}
+
+.container-message-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-message-input input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  border: 2px solid #a7a7a7;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  outline: none;
+}

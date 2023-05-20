@@ -1,0 +1,40 @@
+nav {
+  width: 250px;
+  background-color: #dedede;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  padding: 0 15px;
+}
+
+.create-group-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #5c5c5c;
+}
+
+.create-group-icon:hover {
+  color: black;
+}
+
+nav li {
+  list-style: none;
+  padding: 15px;
+}
+
+nav li:hover {
+  cursor: pointer;
+  background-color: #a7a7a7;
+  color: black;
+}
+
+.active {
+  background-color: #414141;
+  color: #fff;
+}
