@@ -1,6 +1,10 @@
 # Chat-App
 
 ## Pages
+The project consists of two pages:
+
+- Login Page > The login page allows users to log in with a username.
+- Home Page > The home page allows users to create chat groups, join these groups and send messages within them.
 
 ![image](https://github.com/trebektas/Chat-App/assets/111200262/8352b8ef-b10b-42a0-8c6f-ea58ab5a8782)
 ![home](https://github.com/trebektas/Chat-App/assets/111200262/0b4355ba-1d21-443d-83ca-024cf44e6948)
