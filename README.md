@@ -1,4 +1,4 @@
-# Chat-App
+# React Project - Chat App
 
 ## Pages
 The project consists of two pages:
